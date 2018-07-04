@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block details %}
+    <h1>Details of topic:</h1>
+    <ol>
+        {{details.title}}<br>
+        {{details.content}}<br>
+         <p>Date & time published: {{details.created}}</p>
+    </ol>
+{% endblock details %}
